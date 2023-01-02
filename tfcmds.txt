@@ -1,0 +1,15 @@
+ Id CommandLine
+  -- -----------
+   1 aws configure
+ 110 rm -r *
+ 112 mkdir aws_instance
+ 113 cd aws_instance
+ 114 touch fist_instance
+ 116 aws configure
+ 117 terraform init
+ 118 terraform validate
+ 121 terraform fmt
+ 124 terraform tf.plan
+ 126 terraform plan -out tf.plan
+ 127 terraform apply tf.plan
+ terraform destory
